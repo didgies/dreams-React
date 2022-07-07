@@ -1,0 +1,141 @@
+.header1-header {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  z-index: 100;
+  position: relative;
+  max-width: 1110px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header1-logo {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header1-image {
+  width: 100px;
+  object-fit: cover;
+}
+.header1-text {
+  color: #2EC5CE;
+  font-size: 32px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 700;
+}
+.header1-text2 {
+  text-align: center;
+  text-transform: lowercase;
+}
+.header1-menu {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.header1-text3 {
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.header1-text3:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.header1-text4 {
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.header1-text4:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.header1-text5 {
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.header1-text5:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.header1-text6 {
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+}
+.header1-text6:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.header1-icon {
+  width: 24px;
+  height: 24px;
+}
+.header1-burger-menu {
+  display: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header1-menu1 {
+  width: 24px;
+  height: 24px;
+  margin-left: var(--dl-space-space-unit);
+}
+@media(max-width: 1200px) {
+  .header1-text {
+    text-align: center;
+  }
+  .header1-text3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .header1-text4 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .header1-text5 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .header1-text6 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+@media(max-width: 991px) {
+  .header1-text {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .header1-text {
+    text-align: center;
+  }
+  .header1-menu {
+    display: none;
+  }
+  .header1-burger-menu {
+    display: block;
+  }
+}
+@media(max-width: 479px) {
+  .header1-text {
+    text-align: center;
+  }
+}
