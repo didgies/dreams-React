@@ -157,14 +157,13 @@ const Home = (props) => {
           <span className="home-text10">I&apos;m a geek but</span>
           <span className="home-text11">
             {' '}
-            I am not an expert developer. My coding skills lean more towards
-            novice than professional. This page is an experiment to see if I can
-            make a site with tools provided online and publish it on the IC. If
-            I am successful this page will be expanded to include guides,
-            videos, and/or other experiences that I encounter while interacting
-            with the IC&apos;s various platforms. I am already inspired by the
-            community and look forward to digging in deeper. Thanks for
-            visiting!
+            I&apos;m not an expert developer. My coding skills lean more toward
+            novice than professional. This page is an experiment in making a
+            site with tools provided online and publish it on the IC. If I am
+            successful I will expand upon the page to include guides, videos,
+            and/or other experiences that I encounter while interacting with the
+            IC&apos;s various platforms. I am already inspired by the community
+            and look forward to digging in deeper. Thanks for visiting!
           </span>
         </span>
         <div className="home-features1">

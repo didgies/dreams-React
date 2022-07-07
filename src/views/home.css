@@ -459,10 +459,11 @@
 }
 @media(max-width: 1200px) {
   .home-logo {
-    width: 222px;
+    width: auto;
   }
   .home-text {
     text-align: center;
+    padding-left: var(--dl-space-space-unit);
   }
   .home-banner {
     padding: 32px;
