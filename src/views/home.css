@@ -45,10 +45,6 @@
   font-family: Merriweather;
   font-weight: 700;
 }
-.home-text02 {
-  text-align: center;
-  text-transform: lowercase;
-}
 .home-burger-menu {
   display: none;
   align-items: center;
@@ -110,6 +106,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.home-text02 {
+  transition: 0.3s;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.home-text02:hover {
+  color: var(--dl-color-turquoise-default);
+}
 .home-text03 {
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -140,15 +143,8 @@
 }
 .home-text07 {
   transition: 0.3s;
-  margin-bottom: var(--dl-space-space-halfunit);
 }
 .home-text07:hover {
-  color: var(--dl-color-turquoise-default);
-}
-.home-text08 {
-  transition: 0.3s;
-}
-.home-text08:hover {
   color: var(--dl-color-turquoise-default);
 }
 .home-bot {
@@ -329,23 +325,23 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.home-text09 {
+.home-text08 {
   font-size: 2rem;
   font-style: normal;
   text-align: center;
   font-family: Merriweather;
   font-weight: 800;
 }
-.home-text10 {
+.home-text09 {
   font-size: 18px;
   font-family: Merriweather;
 }
-.home-text11 {
+.home-text10 {
   font-style: normal;
   text-align: left;
   font-weight: 800;
 }
-.home-text12 {
+.home-text11 {
   font-style: normal;
   font-weight: 800;
 }
@@ -394,11 +390,11 @@
   position: absolute;
   object-fit: cover;
 }
-.home-text13 {
+.home-text12 {
   z-index: 100;
   max-width: 500px;
 }
-.home-text14 {
+.home-text13 {
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -451,29 +447,32 @@
   font-weight: 700;
   text-decoration: none;
 }
-.home-text15 {
+.home-text14 {
   font-style: normal;
   font-family: Exo 2;
   font-weight: 700;
 }
-.home-text17 {
+.home-text16 {
   font-style: normal;
   font-family: Exo 2;
   font-weight: 700;
 }
 @media(max-width: 1200px) {
+  .home-logo {
+    width: 222px;
+  }
   .home-text {
     text-align: center;
   }
   .home-banner {
     padding: 32px;
   }
-  .home-text09 {
+  .home-text08 {
     font-style: normal;
     font-family: Merriweather;
     font-weight: 800;
   }
-  .home-text10 {
+  .home-text09 {
     font-size: 18px;
     font-style: normal;
     font-family: Merriweather;
@@ -484,7 +483,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .home-text14 {
+  .home-text13 {
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -523,7 +522,7 @@
     width: 50px;
     bottom: auto;
   }
-  .home-text13 {
+  .home-text12 {
     font-size: 40px;
     text-align: center;
   }

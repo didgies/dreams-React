@@ -29,8 +29,7 @@ const Home = (props) => {
               className="home-image"
             />
             <span className="home-text">
-              <span>dreams.icp</span>
-              <span className="home-text02">&amp;#8203;</span>
+              <span>dreams</span>
             </span>
           </div>
           <div data-type="BurgerMenu" className="home-burger-menu">
@@ -57,12 +56,12 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-mid">
-            <span className="home-text03">About</span>
-            <span className="home-text04">Products</span>
-            <span className="home-text05">Pricing</span>
-            <span className="home-text06">Blog</span>
-            <span className="home-text07">Jobs</span>
-            <span className="home-text08">More</span>
+            <span className="home-text02">About</span>
+            <span className="home-text03">Products</span>
+            <span className="home-text04">Pricing</span>
+            <span className="home-text05">Blog</span>
+            <span className="home-text06">Jobs</span>
+            <span className="home-text07">More</span>
           </div>
           <div className="home-bot">
             <div className="home-container1">
@@ -152,11 +151,11 @@ const Home = (props) => {
       </div>
       <div className="home-features">
         <div className="home-banner">
-          <h1 className="home-text09">Welcome!</h1>
+          <h1 className="home-text08">Welcome!</h1>
         </div>
-        <span className="home-text10">
-          <span className="home-text11">I&apos;m a geek but</span>
-          <span className="home-text12">
+        <span className="home-text09">
+          <span className="home-text10">I&apos;m a geek but</span>
+          <span className="home-text11">
             {' '}
             I am not an expert developer. My coding skills lean more towards
             novice than professional. This page is an experiment to see if I can
@@ -200,12 +199,12 @@ const Home = (props) => {
               src="/playground_assets/quote-mark.svg"
               className="home-image2"
             />
-            <h1 className="home-text13 headline2">
-              Here&apos;s some social media posts that inspired me...
+            <h1 className="home-text12 headline2">
+              Inspiring posts from social media...
             </h1>
           </div>
         </div>
-        <span className="home-text14">...COMING SOON</span>
+        <span className="home-text13">...COMING SOON</span>
       </div>
       <div className="home-footer">
         <footer className="home-container8">
@@ -228,9 +227,9 @@ const Home = (props) => {
             rel="noreferrer noopener"
             className="home-link5"
           >
-            <span className="home-text15">dreams.icp</span>
+            <span className="home-text14">dreams.icp</span>
             <br></br>
-            <span className="home-text17">OpenChat</span>
+            <span className="home-text16">OpenChat</span>
           </a>
         </footer>
       </div>
